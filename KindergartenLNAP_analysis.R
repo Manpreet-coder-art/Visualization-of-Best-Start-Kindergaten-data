@@ -30,6 +30,6 @@ grad_y = count_by(data, LNAPStatus,Year,Grade)
 red_y = grad_y %>% filter(Grade == "Red") 
 
 ## Export the resulted data frame into excel file
-write_csv(red_y,"C:\\Users\\mkaur28\\Desktop\\Red_Yearwise23.csv")
+write_csv(red_y,"C:\\Users\\mkaur28\\Desktop\\Red_Yearwise.csv")
 
 
